@@ -1,0 +1,65 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: pipe - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ggv\LOCALS~1\Temp\RSP34.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GR /GX /ZI /Od /I "../../../src" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/pipe.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\systemC\sc_simlib\examples\sysc\pipe\display.cpp"
+"C:\systemC\sc_simlib\examples\sysc\pipe\main.cpp"
+"C:\systemC\sc_simlib\examples\sysc\pipe\numgen.cpp"
+"C:\systemC\sc_simlib\examples\sysc\pipe\stage1.cpp"
+"C:\systemC\sc_simlib\examples\sysc\pipe\stage2.cpp"
+"C:\systemC\sc_simlib\examples\sysc\pipe\stage3.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ggv\LOCALS~1\Temp\RSP34.tmp" 
+Creating temporary file "C:\DOCUME~1\ggv\LOCALS~1\Temp\RSP35.tmp" with contents
+[
+systemc.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/pipe.pdb" /debug /machine:I386 /out:"Debug/pipe.exe" /pdbtype:sept /libpath:"../../../msvc60/SystemC/debug" 
+.\Debug\display.obj
+.\Debug\main.obj
+.\Debug\numgen.obj
+.\Debug\stage1.obj
+.\Debug\stage2.obj
+.\Debug\stage3.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ggv\LOCALS~1\Temp\RSP35.tmp"
+<h3>Output Window</h3>
+Compiling...
+display.cpp
+main.cpp
+c:\systemc\sc_simlib\src\sysc\communication\sc_signal.h(311) : error C2228: left of '.m_len' must have class/struct/union type
+        c:\program files\microsoft visual studio\vc98\include\xmemory(66) : while compiling class-template member function 'void __thiscall sc_core::sc_signal<double>::update(void)'
+c:\systemc\sc_simlib\src\sysc\communication\sc_signal.h(351) : error C2228: left of '.m_data' must have class/struct/union type
+        c:\program files\microsoft visual studio\vc98\include\xmemory(66) : while compiling class-template member function 'void __thiscall sc_core::sc_signal<double>::update(void)'
+c:\systemc\sc_simlib\src\sysc\communication\sc_signal.h(378) : error C2228: left of '.m_data' must have class/struct/union type
+        c:\program files\microsoft visual studio\vc98\include\xmemory(66) : while compiling class-template member function 'void __thiscall sc_core::sc_signal<double>::update(void)'
+c:\systemc\sc_simlib\src\sysc\communication\sc_signal.h(394) : error C2228: left of '.m_data' must have class/struct/union type
+        c:\program files\microsoft visual studio\vc98\include\xmemory(66) : while compiling class-template member function 'void __thiscall sc_core::sc_signal<double>::update(void)'
+c:\systemc\sc_simlib\src\sysc\communication\sc_signal.h(398) : error C2228: left of '.m_data' must have class/struct/union type
+        c:\program files\microsoft visual studio\vc98\include\xmemory(66) : while compiling class-template member function 'void __thiscall sc_core::sc_signal<double>::update(void)'
+c:\systemc\sc_simlib\src\sysc\communication\sc_signal.h(417) : error C2228: left of '.m_data' must have class/struct/union type
+        c:\program files\microsoft visual studio\vc98\include\xmemory(66) : while compiling class-template member function 'void __thiscall sc_core::sc_signal<double>::update(void)'
+c:\systemc\sc_simlib\src\sysc\communication\sc_signal.h(435) : error C2228: left of '.m_data' must have class/struct/union type
+        c:\program files\microsoft visual studio\vc98\include\xmemory(66) : while compiling class-template member function 'void __thiscall sc_core::sc_signal<double>::update(void)'
+c:\systemc\sc_simlib\src\sysc\communication\sc_signal.h(439) : error C2228: left of '.m_data' must have class/struct/union type
+        c:\program files\microsoft visual studio\vc98\include\xmemory(66) : while compiling class-template member function 'void __thiscall sc_core::sc_signal<double>::update(void)'
+c:\systemc\sc_simlib\src\sysc\communication\sc_signal.h(457) : error C2228: left of '.m_data' must have class/struct/union type
+        c:\program files\microsoft visual studio\vc98\include\xmemory(66) : while compiling class-template member function 'void __thiscall sc_core::sc_signal<double>::update(void)'
+numgen.cpp
+stage1.cpp
+stage2.cpp
+stage3.cpp
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+pipe.exe - 9 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

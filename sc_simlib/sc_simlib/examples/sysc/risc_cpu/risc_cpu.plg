@@ -1,0 +1,65 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: risc_cpu - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ggv\LOCALS~1\Temp\RSP35A.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GR /GX /ZI /Od /I "../../../src" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/risc_cpu.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\systemC\systemc-2.1.0\examples\sysc\risc_cpu\bios.cpp"
+"C:\systemC\systemc-2.1.0\examples\sysc\risc_cpu\dcache.cpp"
+"C:\systemC\systemc-2.1.0\examples\sysc\risc_cpu\decode.cpp"
+"C:\systemC\systemc-2.1.0\examples\sysc\risc_cpu\exec.cpp"
+"C:\systemC\systemc-2.1.0\examples\sysc\risc_cpu\fetch.cpp"
+"C:\systemC\systemc-2.1.0\examples\sysc\risc_cpu\floating.cpp"
+"C:\systemC\systemc-2.1.0\examples\sysc\risc_cpu\icache.cpp"
+"C:\systemC\systemc-2.1.0\examples\sysc\risc_cpu\main.cpp"
+"C:\systemC\systemc-2.1.0\examples\sysc\risc_cpu\mmxu.cpp"
+"C:\systemC\systemc-2.1.0\examples\sysc\risc_cpu\paging.cpp"
+"C:\systemC\systemc-2.1.0\examples\sysc\risc_cpu\pic.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ggv\LOCALS~1\Temp\RSP35A.tmp" 
+Creating temporary file "C:\DOCUME~1\ggv\LOCALS~1\Temp\RSP35B.tmp" with contents
+[
+systemc.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/risc_cpu.pdb" /debug /machine:I386 /out:"Debug/risc_cpu.exe" /pdbtype:sept /libpath:"../../../msvc60/SystemC/debug" 
+".\Debug\bios.obj"
+".\Debug\dcache.obj"
+".\Debug\decode.obj"
+".\Debug\exec.obj"
+".\Debug\fetch.obj"
+".\Debug\floating.obj"
+".\Debug\icache.obj"
+".\Debug\main.obj"
+".\Debug\mmxu.obj"
+".\Debug\paging.obj"
+".\Debug\pic.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ggv\LOCALS~1\Temp\RSP35B.tmp"
+<h3>Output Window</h3>
+Compiling...
+bios.cpp
+dcache.cpp
+decode.cpp
+exec.cpp
+c:\systemc\systemc-2.1.0\examples\sysc\risc_cpu\exec.cpp(149) : warning C4806: '^' : unsafe operation: no value of type 'bool' promoted to type 'const int' can equal the given constant
+c:\systemc\systemc-2.1.0\examples\sysc\risc_cpu\exec.cpp(149) : warning C4554: '^' : check operator precedence for possible error; use parentheses to clarify precedence
+fetch.cpp
+floating.cpp
+icache.cpp
+main.cpp
+mmxu.cpp
+paging.cpp
+pic.cpp
+Linking...
+LINK : warning LNK4098: defaultlib "LIBC" conflicts with use of other libs; use /NODEFAULTLIB:library
+
+
+
+<h3>Results</h3>
+risc_cpu.exe - 0 error(s), 3 warning(s)
+</pre>
+</body>
+</html>
